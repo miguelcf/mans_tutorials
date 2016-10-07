@@ -1,0 +1,16 @@
+SUBIR UN PROYECTO EXISTENTE A GITHUB
+Si tenemos un proyecto ya hecho en nuestro ordenador podemos subirlo a Github muy rápidamente:
+
+1. Ir al directorio base del proyecto y ejectuar: git init
+
+2. Ir a http://github.com y logarnos con nuestro usuario. Crear un nuevo proyecto.
+
+3. Ir al directorio base del proyecto y configurar la URL del nuevo proyecto de GitHub: git remote add origin https://github.com/4lberto/atascator.git
+
+4. Proceder normalmente:
+
+git pull origin master (para bajar el README.md si lo hemos hecho).
+git add .
+git commit -m “primer commit”
+git push origin master
+etc…
